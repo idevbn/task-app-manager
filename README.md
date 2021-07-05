@@ -1,21 +1,21 @@
 # React Task App Manager
 
 <p align="center">
- <a href="#-sobre-o-projeto">Sobre</a> •
- <a href="#-funcionalidades">Funcionalidades</a> •
- <a href="#-como-executar-o-projeto">Como executar</a> • 
- <a href="#-tecnologias">Tecnologias</a> • 
- <a href="#-autor">Autor</a> • 
- <a href="#user-content--licença">Licença</a>
+ <a href="#sobre">Sobre</a> •
+ <a href="#funcionalidades">Funcionalidades</a> •
+ <a href="#executar">Como executar</a> • 
+ <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#demo">Demonstração</a> •
+ <a href="#autor">Autor</a> 
 </p>
 
-## :computer: Sobre o projeto
+<h2 id="sobre"> :computer: Sobre o projeto </h2>
 
 Task App Manager - é um gerenciador de tarefas, que permite adicionar, remover e editar tarefas, salvando essas ações no **local storage**.
 
 ---
 
-## :gear: Funcionalidades
+<h2 id="funcionalidades"> :gear: Funcionalidades</h2>
 
 - Adicionar nova tarefa
 - Editar conteúdo de uma tarefa
@@ -24,7 +24,7 @@ Task App Manager - é um gerenciador de tarefas, que permite adicionar, remover 
 
 ---
 
-## :rocket: Como executar o projeto
+<h2 id="executar"> :rocket: Como executar o projeto </h2>
 
 ### Pré-requisitos
 
@@ -61,13 +61,14 @@ $ yarn start
 
 ---
 
-## :satellite: Tecnologias
+<h2 id="tecnologias"> :satellite: Tecnologias </h2>
 
 Ferramentas utilizadas no projeto:
 
 #### **Website**
 
 - **[React](https://reactjs.org/)**
+  - **Context API**: para gerenciamento de estados da aplicação
 
 #### **Utilitários**
 
@@ -77,7 +78,15 @@ Ferramentas utilizadas no projeto:
 
 ---
 
-## :alien: Autor
+<h2 id="demo"> :bulb: Demonstração </h2>
+
+### Acesse a aplicação:
+
+**[Task App Manager](https://zen-knuth-f763fc.netlify.app/)**
+
+---
+
+<h2 id="autor"> :alien: Autor </h2>
 
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/60206607?v=4" width="100px;" alt=""/>
  <br />
