@@ -82,7 +82,7 @@ Ferramentas utilizadas no projeto:
 
 ### Acesse a aplicação:
 
-**[Task App Manager](https://zen-knuth-f763fc.netlify.app/)**
+<a href="https://zen-knuth-f763fc.netlify.app/" target="_blank"><b><i>Task App Manager</i></b></a>
 
 ---
 
