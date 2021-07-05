@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# React Task App Manager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+ <a href="#-sobre-o-projeto">Sobre</a> •
+ <a href="#-funcionalidades">Funcionalidades</a> •
+ <a href="#-como-executar-o-projeto">Como executar</a> • 
+ <a href="#-tecnologias">Tecnologias</a> • 
+ <a href="#-autor">Autor</a> • 
+ <a href="#user-content--licença">Licença</a>
+</p>
 
-## Available Scripts
+## :computer: Sobre o projeto
 
-In the project directory, you can run:
+Task App Manager - é um gerenciador de tarefas, que permite adicionar, remover e editar tarefas, salvando essas ações no **local storage**.
 
-### `yarn start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## :gear: Funcionalidades
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Adicionar nova tarefa
+- Editar conteúdo de uma tarefa
+- Marcar/desmarcar tarefa como concluída
+- Salvar alterações no navegador
 
-### `yarn test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :rocket: Como executar o projeto
 
-### `yarn build`
+### Pré-requisitos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Antes de iniciar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+  - [Node.js](https://nodejs.org/en/)
+  - [Git](https://git-scm.com)
+- Além disto é bom ter um editor para trabalhar com o código, como por exemplo [VSCode](https://code.visualstudio.com/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Rodando a aplicação
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
 
-### `yarn eject`
+# Clone este repositório
+$ git clone git@github.com/idevbn/task-app-manager.git
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd task-app-manager
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Instale as dependências com
+$ npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Ou com
+$ yarn add
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Execute a aplicação em modo de desenvolvimento
+$ npm run start
 
-## Learn More
+# Ou através do comando
+$ yarn start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## :satellite: Tecnologias
 
-### Analyzing the Bundle Size
+Ferramentas utilizadas no projeto:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### **Website**
 
-### Making a Progressive Web App
+- **[React](https://reactjs.org/)**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+#### **Utilitários**
 
-### Advanced Configuration
+- Editor: **[Visual Studio Code](https://code.visualstudio.com/)**
+- Ícones: **[Font Awesome](https://fontawesome.com/)**
+- Fontes: **[Poppins](https://fonts.google.com/specimen/Poppins)**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## :alien: Autor
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/60206607?v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Idevaldo Neto</b></sub>
 
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
